@@ -1,0 +1,21 @@
+{
+    "name": "imagem-texto",
+    "version": "1.0.0",
+    "description": "imagem-texto é um conversor de imagem em texto.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [
+      "imagem",
+      "texto"
+    ],
+    "author": "Jonatan Reseck",
+    "license": "MIT",
+    "dependencies": {
+      "body-parser": "^1.18.3",
+      "classname": "0.0.0",
+      "ejs": "^2.6.1",
+      "express": "^4.16.4"
+    }
+  }
