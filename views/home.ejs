@@ -7,7 +7,7 @@
     <body>
         <div id="papai">
             <div>
-                <h1>Converter uma Imagem em texto</h1>    
+                <h1>Extrair o texto de uma imagem</h1>    
             </div>
             <div id="botao">
                     <select id="langsel" onchange="window.lastFile && recognizeFile(window.lastFile)">
@@ -15,7 +15,7 @@
                         <option value='por' selected > Portugues </option>
                         <option value='spa' > Spanish         </option>
                     </select>
-                    <input type="file" id="upload" onchange="recognizeFile(window.lastFile=this.files[0])"/>
+                    <input type="file" value="Selecionar uma imagem..." id="upload" onchange="recognizeFile(window.lastFile=this.files[0])"/>
 
             </div>
             <div>
